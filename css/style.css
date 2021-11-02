@@ -1,0 +1,68 @@
+h1{
+    color: fuchsia;
+    text-align: center;
+}
+
+h2{
+   color: lime; 
+   text-decoration: mediumaquamarine;
+   margin: 10px;
+   padding: 3px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:cornsilk;
+    font-family: "lato", sans-serif;
+}
+
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: darkviolet;
+}
+
+.form {
+    background-color: whitesmoke;
+    width: 450px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(56, 41, 194, 0.2);
+  }
+  
+  .title {
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+
+  .inputContainer {
+    position: relative;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1.2px solid #9e1fc5;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+
+  ::placeholder {
+    color: transparent;
+  }
+
+  
